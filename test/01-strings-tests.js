@@ -72,7 +72,7 @@ describe('01-strings-tasks', () => {
     assert.equal(
       tasks.getRectangleString(6, 4),
       // eslint-disable-next-line indent
-        '┌────┐\n'
+      '┌────┐\n'
       + '│    │\n'
       + '│    │\n'
       + '└────┘\n',
@@ -80,13 +80,13 @@ describe('01-strings-tasks', () => {
     assert.deepEqual(
       tasks.getRectangleString(2, 2),
       // eslint-disable-next-line indent
-        '┌┐\n'
+      '┌┐\n'
       + '└┘\n',
     );
     assert.deepEqual(
       tasks.getRectangleString(12, 3),
       // eslint-disable-next-line indent
-        '┌──────────┐\n'
+      '┌──────────┐\n'
       + '│          │\n'
       + '└──────────┘\n',
     );
